@@ -1,0 +1,116 @@
+{
+  "id": "pyk3z86mx8",
+  "doi": {
+    "id": "10.17632/pyk3z86mx8.1",
+    "status": "allocated",
+    "prefix": "10.17632"
+  },
+  "name": "Data for: Canopy gaps accelerate soil organic carbon retention by soil microbial biomass in the organic horizon in a subalpine fir forest",
+  "description": "The data include raw data and processed data about the specific mass of the organic horizon, microbial biomass C, N and P, total C, N and P, environment factors (soil temperature, snow depth) from canopy to gaps in a subalpine fir forest",
+  "version": 1,
+  "publish_date": "2018-02-04T01:43:11.886Z",
+  "data_licence": {
+    "id": "01d9c749-3c4d-4431-9df3-620b2dcfe144",
+    "short_name": "CC BY 4.0",
+    "full_name": "Creative Commons Attribution 4.0 International",
+    "description": "This dataset is licensed under a Creative Commons Attribution 4.0 International licence.\n\nWhat does this mean?\nYou can share, copy and modify this dataset so long as you give appropriate credit, provide a link to the CC BY license, and indicate if changes were made, but you may not do so in a way that suggests the rights holder has endorsed you or your use of the dataset. Note that further permission may be required for any content within the dataset that is identified as belonging to a third party.",
+    "url": "http://creativecommons.org/licenses/by/4.0",
+    "category": "Creative"
+  },
+  "contributors": [
+    {
+      "first_name": "Wanqin",
+      "last_name": "Yang"
+    },
+    {
+      "profile_id": "bc24a89a-fc80-378c-ba4b-75ded94b07c5",
+      "first_name": "biomass",
+      "last_name": "Tan"
+    },
+    {
+      "profile_id": "1da935a1-6948-3f7f-bf1e-64c1eb23ea8d",
+      "first_name": "Xinhua",
+      "last_name": "He"
+    },
+    {
+      "first_name": "li",
+      "last_name": "Zhang"
+    },
+    {
+      "profile_id": "f83cfa87-6b61-31bc-8e1d-c42b99de084d",
+      "first_name": "Yang",
+      "last_name": "Liu"
+    },
+    {
+      "first_name": "Zhenfeng",
+      "last_name": "Xu"
+    },
+    {
+      "first_name": "Jian",
+      "last_name": "Zhanga"
+    },
+    {
+      "profile_id": "6e85356f-c2f0-3028-9b60-2bdec9eb7267",
+      "first_name": "Fuzhong",
+      "last_name": "Wu"
+    },
+    {
+      "first_name": "li",
+      "last_name": "Guo"
+    }
+  ],
+  "versions": [
+    {
+      "version": 1,
+      "publish_date": "2018-02-04T01:43:11.886Z",
+      "available": true
+    }
+  ],
+  "files": [
+    {
+      "filename": "datas-microbial biomass.zip",
+      "id": "a93e9fd3-ac09-4c0e-8f98-02e9431a9317",
+      "content_details": {
+        "id": "05ef3833-d256-400c-8da7-6a8f0cf4e01f",
+        "sha256_hash": "bc84a4cd9258a5683c23e197bd2711dbe7167b987e33d7db497deb825a3c4e83",
+        "sha1_hash": "303b8876075b3a5dc24206b9d9674d4a9566edae",
+        "content_type": "application/zip",
+        "size": 5865190,
+        "created_date": "2017-08-29T00:00:00.000Z",
+        "download_url": "https://api.mendeley.com/datasets/redirect/eyJ0eXBlIjoiZG93bmxvYWRfZmlsZSIsImRhdGFzZXRJZCI6InB5azN6ODZteDgiLCJkYXRhc2V0VmVyc2lvbiI6MSwiZmlsZUlkIjoiMDVlZjM4MzMtZDI1Ni00MDBjLThkYTctNmE4ZjBjZjRlMDFmIiwiZGVzdGluYXRpb24iOiJodHRwczovL2NvbS1tZW5kZWxleS1pbnRlcm5hbC5zMy5hbWF6b25hd3MuY29tL3BsYXRmb3JtL3JkbS9wcm9kdWN0aW9uLzY1YzViODJiLTU3YTktNGUwNC04ODI5LWMwNjJkMDFiZTIzNz9yZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPWF0dGFjaG1lbnQlM0IlMjBmaWxlbmFtZSUzRCUyMmRhdGFzLW1pY3JvYmlhbCUyMGJpb21hc3MuemlwJTIyJTNCJTIwZmlsZW5hbWUlMkElM0RVVEYtOCUyNyUyN2RhdGFzLW1pY3JvYmlhbCUyNTIwYmlvbWFzcy56aXAmcmVzcG9uc2UtY29udGVudC10eXBlPWFwcGxpY2F0aW9uJTJGemlwJkFXU0FjY2Vzc0tleUlkPUFLSUFJNkRaWE9HSUNMS1ZHWUVBJkV4cGlyZXM9MTU0ODE1NzY2NyZTaWduYXR1cmU9aG9hOHVpejR4dVFZWERoN3RmTFMwQk1McGVZJTNEIn0=",
+        "view_url": "https://api.mendeley.com/datasets/redirect/eyJ0eXBlIjoidmlld19maWxlIiwiZGF0YXNldElkIjoicHlrM3o4Nm14OCIsImRhdGFzZXRWZXJzaW9uIjoxLCJmaWxlSWQiOiIwNWVmMzgzMy1kMjU2LTQwMGMtOGRhNy02YThmMGNmNGUwMWYiLCJkZXN0aW5hdGlvbiI6Imh0dHBzOi8vY29tLW1lbmRlbGV5LWludGVybmFsLnMzLmFtYXpvbmF3cy5jb20vcGxhdGZvcm0vcmRtL3Byb2R1Y3Rpb24vNjVjNWI4MmItNTdhOS00ZTA0LTg4MjktYzA2MmQwMWJlMjM3P3Jlc3BvbnNlLWNvbnRlbnQtZGlzcG9zaXRpb249aW5saW5lJTNCJTIwZmlsZW5hbWUlM0QlMjJkYXRhcy1taWNyb2JpYWwlMjBiaW9tYXNzLnppcCUyMiUzQiUyMGZpbGVuYW1lJTJBJTNEVVRGLTglMjclMjdkYXRhcy1taWNyb2JpYWwlMjUyMGJpb21hc3MuemlwJnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1hcHBsaWNhdGlvbiUyRnppcCZBV1NBY2Nlc3NLZXlJZD1BS0lBSTZEWlhPR0lDTEtWR1lFQSZFeHBpcmVzPTE1NDgxNTc2NjcmU2lnbmF0dXJlPVFkMVolMkZ2c0tSdlVwNmhneFcxcmc1SThnWGpZJTNEIn0=",
+        "download_expiry_time": "2019-01-22T11:47:47.619Z"
+      },
+      "metrics": {
+        "downloads": 0,
+        "previews": 0
+      }
+    }
+  ],
+  "articles": [
+    {
+      "id": "10.1016/j.apsoil.2018.01.002",
+      "title": "Canopy gaps accelerate soil organic carbon retention by soil microbial biomass in the organic horizon in a subalpine fir forest",
+      "doi": "10.1016/j.apsoil.2018.01.002",
+      "journal": {
+        "issn": "0929-1393",
+        "name": "Applied Soil Ecology",
+        "url": "http://www.sciencedirect.com/science/journal/0929-1393"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "id": "http://data.elsevier.com/vocabulary/OmniScience/Concept-257947058",
+      "label": "Microbial Biomass in Soil"
+    }
+  ],
+  "institutions": [],
+  "metrics": {
+    "views": 0,
+    "file_downloads": 0,
+    "file_previews": 0
+  },
+  "available": true,
+  "related_links": []
+}
