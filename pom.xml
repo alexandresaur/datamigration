@@ -50,49 +50,6 @@
 			<version>2.5</version>
 		</dependency>
 		<dependency>
-			<groupId>com.elsevier.datasearch</groupId>
-			<artifactId>datasearch-commons</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-			<exclusions>
-				<exclusion>
-					<groupId>com.amazonaws</groupId>
-					<artifactId>aws-java-sdk-opsworkscm</artifactId>
-				</exclusion>
-				<exclusion>
-					<groupId>com.amazonaws</groupId>
-					<artifactId>aws-java-sdk-appstream</artifactId>
-				</exclusion>
-				<exclusion>
-					<groupId>com.amazonaws</groupId>
-					<artifactId>aws-java-sdk-swf-libraries</artifactId>
-				</exclusion>
-				<exclusion>
-					<groupId>org.slf4j</groupId>
-					<artifactId>slf4j-log4j12</artifactId>
-				</exclusion>
-				<exclusion>
-					<groupId>org.jsoup</groupId>
-					<artifactId>jsoup</artifactId>
-				</exclusion>
-			</exclusions>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.solr</groupId>
-			<artifactId>solr-solrj</artifactId>
-			<exclusions>
-				<exclusion>
-					<groupId>com.google.guava</groupId>
-					<artifactId>guava</artifactId>
-				</exclusion>
-			</exclusions>
-		</dependency>
-		<dependency>
-			<groupId>org.glassfish.jersey.media</groupId>
-			<artifactId>jersey-media-json-processing</artifactId>
-			<version>2.21</version>
-		</dependency>
-
-		<dependency>
 			<groupId>com.google.code.gson</groupId>
 			<artifactId>gson</artifactId>
 			<version>2.7</version>
@@ -103,80 +60,8 @@
 			<version>1.0.2</version>
 		</dependency>
 		<dependency>
-			<groupId>com.elsevier.datasearch</groupId>
-			<artifactId>ELK-Logging</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
-		<dependency>
-			<groupId>org.hamcrest</groupId>
-			<artifactId>hamcrest-all</artifactId>
-			<version>1.3</version>
-		</dependency>
-		<dependency>
-			<groupId>org.skyscreamer</groupId>
-			<artifactId>jsonassert</artifactId>
-			<version>1.4.0</version>
-		</dependency>
-		<dependency>
-			<groupId>org.mockito</groupId>
-			<artifactId>mockito-all</artifactId>
-			<version>1.10.19</version>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<version>4.12</version>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.assertj</groupId>
-			<artifactId>assertj-core</artifactId>
-			<version>3.11.1</version>
-			<scope>test</scope>
-		</dependency>
-
-		<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml -->
-
-		<!-- https://mvnrepository.com/artifact/net.sf.opencsv/opencsv -->
-		<dependency>
-			<!-- redis -->
-			<groupId>redis.clients</groupId>
-			<artifactId>jedis</artifactId>
-			<version>2.9.0</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.lucene</groupId>
-			<artifactId>lucene-analyzers-common</artifactId>
-			<version>6.6.5</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.lucene</groupId>
-			<artifactId>lucene-analyzers-icu</artifactId>
-			<version>6.6.5</version>
-		</dependency>
-		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
-		</dependency>
-
-		<dependency>
-			<groupId>com.fasterxml.jackson.dataformat</groupId>
-			<artifactId>jackson-dataformat-yaml</artifactId>
-			<version>2.9.0.pr3</version>
-		</dependency>
-
-		<!-- dependency> <groupId>com.elsevier.datasearch</groupId> <artifactId>solr-lemmatise</artifactId> 
-			<version>1.0</version> </dependency -->
-		<dependency>
-			<groupId>com.elsevier.datasearch</groupId>
-			<artifactId>datasearch-phrase-core</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
-		<dependency>
-			<groupId>org.freemarker</groupId>
-			<artifactId>freemarker</artifactId>
-			<version>2.3.23</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -213,62 +98,6 @@
 			<artifactId>commons-collections</artifactId>
 			<version>3.2.2</version>
 		</dependency>
-		<dependency>
-			<groupId>xerces</groupId>
-			<artifactId>xercesImpl</artifactId>
-			<version>2.12.0</version>
-		</dependency>
-		<dependency>
-			<groupId>net.sf.opencsv</groupId>
-			<artifactId>opencsv</artifactId>
-			<version>2.3</version>
-		</dependency>
-		<dependency>
-			<groupId>org.jacoco</groupId>
-			<artifactId>jacoco-maven-plugin</artifactId>
-			<version>0.8.2</version>
-		</dependency>
-		<dependency>
-			<groupId>org.powermock</groupId>
-			<artifactId>powermock-module-junit4</artifactId>
-			<version>1.7.1</version>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.powermock</groupId>
-			<artifactId>powermock-module-junit4-rule-agent</artifactId>
-			<version>1.7.1</version>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.powermock</groupId>
-			<artifactId>powermock-api-mockito</artifactId>
-			<version>1.7.1</version>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>com.elsevier.cef</groupId>
-			<artifactId>cef-omniscience-rds-rest-client</artifactId>
-			<version>2017.07-RELEASE</version>
-			<exclusions>
-				<exclusion>
-					<groupId>com.fasterxml.jackson.dataformat</groupId>
-					<artifactId>jackson-dataformat-xml</artifactId>
-				</exclusion>
-			</exclusions>
-		</dependency>
-		<dependency>
-			<groupId>org.mutabilitydetector</groupId>
-			<artifactId>MutabilityDetector</artifactId>
-			<version>0.9.5</version>
-			<scope>test</scope>
-		</dependency>
-        <dependency>
-            <groupId>com.elsevier.datasearch</groupId>
-			<artifactId>datasearch-advancesearch-grammar</artifactId>
-            <version>1.0-SNAPSHOT</version>
-            <scope>compile</scope>
-        </dependency>
     </dependencies>
 	<build>
 		<resources>
@@ -297,89 +126,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-			<plugin>
-				<groupId>org.codehaus.mojo</groupId>
-				<artifactId>rpm-maven-plugin</artifactId>
-				<version>2.1.5</version>
-				<executions>
-					<execution>
-						<id>generate-rpm</id>
-						<goals>
-							<goal>rpm</goal>
-						</goals>
-					</execution>
-				</executions>
-				<configuration>
-					<group>com.elsevier.datasearch</group>
-					<name>datasearch-api</name>
-					<version>0.0.1_SNAPSHOT</version>
-					<release>${buildNumber}</release>
-					<needarch>X86_64</needarch>
-					<targetOS>LINUX</targetOS>
-					<requires>
-						<require>java &gt;= 1.8</require>
-					</requires>
-					<mappings>
-						<mapping>
-							<directory>/usr/lib/systemd/system</directory>
-							<directoryIncluded>false</directoryIncluded>
-							<filemode>440</filemode>
-							<username>datasearch-api</username>
-							<groupname>datasearch-api</groupname>
-							<sources>
-								<source>
-									<location>deployment/buildRpm/service</location>
-								</source>
-							</sources>
-						</mapping>
-						<mapping>
-							<directory>/lib</directory>
-							<directoryIncluded>false</directoryIncluded>
-							<filemode>440</filemode>
-							<username>datasearch-api</username>
-							<groupname>datasearch-api</groupname>
-							<sources>
-								<source>
-									<destination>datasearch-api.jar</destination>
-									<location>target/datasearch-api-0.0.1-SNAPSHOT.jar</location>
-								</source>
-							</sources>
-						</mapping>
-					</mappings>
-					<preinstallScriptlet>
-						<scriptFile>deployment/buildRpm/preInstall.sh</scriptFile>
-						<fileEncoding>utf-8</fileEncoding>
-					</preinstallScriptlet>
-					<preremoveScriptlet>
-						<scriptFile>deployment/buildRpm/beforeRemove.sh</scriptFile>
-						<fileEncoding>utf-8</fileEncoding>
-					</preremoveScriptlet>
-				</configuration>
-			</plugin>
-			<plugin>
-				<groupId>org.jacoco</groupId>
-				<artifactId>jacoco-maven-plugin</artifactId>
-				<version>0.8.2</version>
-				<configuration>
-					<destFile>${basedir}/target/coverage-reports/jacoco-unit.exec</destFile>
-					<dataFile>${basedir}/target/coverage-reports/jacoco-unit.exec</dataFile>
-				</configuration>
-				<executions>
-					<execution>
-						<id>jacoco-initialize</id>
-						<goals>
-							<goal>prepare-agent</goal>
-						</goals>
-					</execution>
-					<execution>
-						<id>jacoco-site</id>
-						<phase>package</phase>
-						<goals>
-							<goal>report</goal>
-						</goals>
-					</execution>
-				</executions>
-			</plugin>
+
 			<plugin>
 				<groupId>org.owasp</groupId>
 				<artifactId>dependency-check-maven</artifactId>
@@ -392,32 +139,7 @@
 					</execution>
 				</executions>
 			</plugin>
-			<plugin>
-				<groupId>pl.project13.maven</groupId>
-				<artifactId>git-commit-id-plugin</artifactId>
-				<version>2.2.6</version>
-				<executions>
-					<execution>
-						<id>get-the-git-infos</id>
-						<goals>
-							<goal>revision</goal>
-						</goals>
-					</execution>
-				</executions>
-				<configuration>
-					<dotGitDirectory>${project.basedir}/.git</dotGitDirectory>
-					<prefix>git</prefix>
-					<verbose>false</verbose>
-					<generateGitPropertiesFile>true</generateGitPropertiesFile>
-					<generateGitPropertiesFilename>${project.build.outputDirectory}/git.properties</generateGitPropertiesFilename>
-					<format>json</format>
-					<gitDescribe>
-						<skip>false</skip>
-						<always>false</always>
-						<dirty>-dirty</dirty>
-					</gitDescribe>
-				</configuration>
-			</plugin>
+
 		</plugins>
 	</build>
 
