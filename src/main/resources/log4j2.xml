@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="info" name="search" packages="com.elsevier.datasearch">
+  <Appenders>
+   <RollingFile name="RollingFile" fileName="/var/log/datasearch/app.log"
+                 filePattern="/var/log/datasearch/$${date:yyyy-MM}/app-%d{MM-dd-yyyy}-%i.log.gz">
+      <PatternLayout>
+        <Pattern>%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1} - %m%n</Pattern>
+      </PatternLayout>
+      <Policies>
+        <TimeBasedTriggeringPolicy />
+        <SizeBasedTriggeringPolicy size="50 MB"/>
+      </Policies>
+    </RollingFile>
+     <Console name="Console-Appender" target="SYSTEM_OUT">
+        <PatternLayout>
+            <pattern>
+                %d{yyyy-MM-dd HH:mm:ss} %-5p %c{1} - %m%n
+            </pattern>>
+        </PatternLayout>
+    </Console>
+  </Appenders>
+  <Loggers>
+  	<Logger name="search" level="info">
+      <Appender-Ref ref="RollingFile"/>
+      
+    </Logger>
+    <Root level="info">
+      <AppenderRef ref="Console-Appender"/>
+    </Root>
+  </Loggers>
+</Configuration>
